@@ -1,0 +1,165 @@
+h1 {
+    text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+  }
+
+
+  .pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Ensure text (if any) is centered as well */
+}
+.pic img {
+    width: 75%;
+    height: auto;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+.pic a:hover {
+  filter: contrast(50%);
+}
+
+.about {
+    line-height: 2px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 50px;
+
+}
+
+/* If the text has multiple lines, add the following: */
+.about p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.socials{
+    width: 100%;
+    float: right;
+  }
+
+.socials ul,li{
+    list-style: none;
+    display:inline;
+}
+
+.socials img:hover {
+  filter: contrast(50%);
+}
+
+
+.top{
+    background-color: rgb(242, 200, 157);
+
+}
+
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4d0b0b;
+  }
+  
+.nav  li {
+    float: left;
+  }
+  
+.nav  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+.nav  li a:hover {
+    background-color: #ab5b5ba2;
+  }
+
+
+  .active {
+    background-color: #90391ca8;
+  }
+
+
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+    background-color: rgb(236, 200, 159);
+  }
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column2{
+    float: left;
+    width: 50%;
+    padding: 15px;
+
+  }
+
+  .column2 img{
+    float: left;
+    width: 100%;
+    padding: 15px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row2 ::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column2 {
+      width: 100%;
+    }
+
+  }
+
+  /*
+  .column2  a:hover {
+    filter: contrast(50%);
+ }
+  */
+
+  .bottom, .row2 , .column2{
+    background-color: rgb(236, 200, 159);
+  }
