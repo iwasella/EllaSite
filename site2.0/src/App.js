@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Moosic from './Moosic';
 
 function App() {
   // Define your links here
@@ -44,7 +45,7 @@ function App() {
             <img 
               src="/moosicicon.png" 
               alt="Music" 
-              onClick={() => handleClick(iconLinks.music)} 
+              onClick={() => window.location.href = "/music"} 
               className="clickable-icon"
             />
           </div>
