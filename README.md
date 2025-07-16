@@ -1,2 +1,0 @@
-# EllaSite
-My Personal Website!
