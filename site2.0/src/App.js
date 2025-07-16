@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Moosic from './Moosic';
+import Moosic from './moosic.js';
 
 function App() {
   // Define your links here
