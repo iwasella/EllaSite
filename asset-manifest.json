@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EllaSite/static/css/main.1c545561.css",
+    "main.js": "/EllaSite/static/js/main.fc114fde.js",
+    "static/js/453.1332d8aa.chunk.js": "/EllaSite/static/js/453.1332d8aa.chunk.js",
+    "index.html": "/EllaSite/index.html",
+    "main.1c545561.css.map": "/EllaSite/static/css/main.1c545561.css.map",
+    "main.fc114fde.js.map": "/EllaSite/static/js/main.fc114fde.js.map",
+    "453.1332d8aa.chunk.js.map": "/EllaSite/static/js/453.1332d8aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c545561.css",
+    "static/js/main.fc114fde.js"
+  ]
+}
