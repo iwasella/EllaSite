@@ -15,6 +15,10 @@ function Home() {
     window.open(link, '_blank', 'noopener,noreferrer');
   };
 
+  const navigateTo = (path) => {
+    window.location.hash = path;
+  };
+
   return (
     <div>
       <img
@@ -39,13 +43,13 @@ function Home() {
             <img
               src={`${process.env.PUBLIC_URL}/arrrt.png`}
               alt="Art"
-              onClick={() => window.open('/#/arrrt', '_blank')}
+              onClick={() => navigateTo('/arrrt')}
               className="clickable-icon"
             />
             <img
               src={`${process.env.PUBLIC_URL}/moosicicon.png`}
               alt="Music"
-              onClick={() => window.open('/#/music', '_blank')}
+              onClick={() => navigateTo('/music')}
               className="clickable-icon"
             />
           </div>

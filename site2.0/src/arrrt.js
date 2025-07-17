@@ -12,7 +12,7 @@ function Arrrt() {
   ];
 
   return (
-    <body className="art-page-body"> {/* Use a div with this class */}
+    <div className="art-page-body">
       <div className="arrrt-page">
         <div className="logo-container">
           <img
@@ -38,7 +38,7 @@ function Arrrt() {
           ))}
         </div>
       </div>
-    </body>
+    </div>
   );
 }
 
