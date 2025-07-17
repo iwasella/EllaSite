@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EllaSite/static/css/main.1c545561.css",
-    "main.js": "/EllaSite/static/js/main.fc114fde.js",
+    "main.css": "/EllaSite/static/css/main.964847b2.css",
+    "main.js": "/EllaSite/static/js/main.18605a06.js",
     "static/js/453.1332d8aa.chunk.js": "/EllaSite/static/js/453.1332d8aa.chunk.js",
     "index.html": "/EllaSite/index.html",
-    "main.1c545561.css.map": "/EllaSite/static/css/main.1c545561.css.map",
-    "main.fc114fde.js.map": "/EllaSite/static/js/main.fc114fde.js.map",
+    "main.964847b2.css.map": "/EllaSite/static/css/main.964847b2.css.map",
+    "main.18605a06.js.map": "/EllaSite/static/js/main.18605a06.js.map",
     "453.1332d8aa.chunk.js.map": "/EllaSite/static/js/453.1332d8aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c545561.css",
-    "static/js/main.fc114fde.js"
+    "static/css/main.964847b2.css",
+    "static/js/main.18605a06.js"
   ]
 }
