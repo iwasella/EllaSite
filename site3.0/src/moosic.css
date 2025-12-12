@@ -2,10 +2,14 @@
     background-color: #000000; 
     min-height: 100vh;
     padding: 40px;
+    
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
     width: 70%;
     margin: 0 auto;
+    max-width: 800px;
+
+  box-sizing: border-box;
   }
   
  .moosic-body{
@@ -20,3 +24,34 @@
     color: #ffffff;
   }
   
+  .audio-player-container {
+    /* Moved styling from inline to CSS file */
+    margin: 15px 0; 
+    padding: 10px; 
+    border: 1px solid #ccc; /* This is your white border */
+    border-radius: 8px;
+    
+    /* 🎯 Add this to ensure padding doesn't cause overflow on this container */
+    box-sizing: border-box; 
+    /* This prevents the 10px padding from pushing the container width out */
+  }
+
+
+
+  .audio-player-image {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+/* Styling for the optional hyperlink on the track title */
+.track-title-link {
+  color: #ffffff; /* Use white color for visibility */
+  text-decoration: none; /* Remove the default underline */
+}
+
+/* Optional: Add hover effect to show it's clickable */
+.track-title-link:hover {
+  text-decoration: underline; /* Show underline on hover */
+  color: #cccccc; /* Slightly darker white color on hover */
+}
