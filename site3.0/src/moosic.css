@@ -1,13 +1,15 @@
 .moosic-page {
-    background-color: #000000; /* light gray */
+    background-color: #000000; 
     min-height: 100vh;
     padding: 40px;
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
+    width: 70%;
+    margin: 0 auto;
   }
   
  .moosic-body{
-  background-color: #eeeeee; /* light gray */
+  background-color: black; 
 
  } 
   .moosic-page h1 {
