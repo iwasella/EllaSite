@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.AboutMe {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.banner{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  }
+
+.window-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.window-background {
+  position: relative;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.background-with-icons {
+  position: relative; /* THIS IS THE KEY: Makes it the anchor for absolute children */
+  width: 60%; /* Takes the width you want for the background */
+  margin: 0 auto; /* Centers the whole structure */
+}
+.icon-bar {
+  position: absolute;
+  z-index: 10;
+
+  
+  /* The 60% width is now 60% of the 60% parent, which is likely too small. 
+     If you want the bar to span the full width of the background image, change to 100%. */
+  width: 70%; 
+  
+  /* Vertical and Horizontal positioning is relative to .background-with-icons */
+  top: 80%; 
+  transform: translate(20%, -90%);
+  /* Flex properties for the icons */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;; 
+  align-items: center;
+}
+
+
+
+.icon-bar img { 
+  position:relative; 
+  height: auto;
+  width: 15%; /* Example: Images take up 20% of the icon-bar width */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  object-fit: contain;
+}
+
+.icon-bar img:hover {
+  transform: scale(1.1);
+}

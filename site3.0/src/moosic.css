@@ -1,5 +1,5 @@
 .moosic-page {
-    background-color: #eeeeee; /* light gray */
+    background-color: #000000; /* light gray */
     min-height: 100vh;
     padding: 40px;
     text-align: center;
@@ -11,10 +11,10 @@
 
  } 
   .moosic-page h1 {
-    color: #333;
+    color: #ffffff;
   }
   
-  .moosic-page p {
-    color: #555;
+  .moosic-page p, h3 {
+    color: #ffffff;
   }
   

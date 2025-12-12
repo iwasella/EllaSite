@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Moosic from './moosic.js';
+import Moosic from './Moosic.js';
 import Arrrt from './arrrt.js';
 
 function Home() {
@@ -22,18 +22,19 @@ function Home() {
   return (
     <div>
       <img
-        className="AboutMe"
-        src={`${process.env.PUBLIC_URL}/aboutme.png`}
-        alt="Ella Vu's about me card"
+        className="banner"
+        src={`${process.env.PUBLIC_URL}/HelloWorld.png`}
       />
+
       <div className="window-container">
-        <img
-          src={`${process.env.PUBLIC_URL}/navback.png`}
-          alt="background"
-          className="window-background"
-        />
-        <div className="icon-bar">
-          <div className="row1">
+        <div className="background-with-icons">
+          <img
+            src={`${process.env.PUBLIC_URL}/navpanel.png`}
+            alt="background"
+            className="window-background"
+          />
+          <div className="icon-bar">
+
             <img
               src={`${process.env.PUBLIC_URL}/githubicon.png`}
               alt="GitHub"
@@ -52,8 +53,6 @@ function Home() {
               onClick={() => navigateTo('/music')}
               className="clickable-icon"
             />
-          </div>
-          <div className="row2">
             <img
               src={`${process.env.PUBLIC_URL}/hitxt.png`}
               alt="Hi"
@@ -66,9 +65,19 @@ function Home() {
               onClick={() => handleClick(iconLinks.linkedin)}
               className="clickable-icon"
             />
+
           </div>
+
         </div>
       </div>
+
+      <img
+        className="AboutMe"
+        src={`${process.env.PUBLIC_URL}/EllaStats.png`}
+        alt="Ella Vu's about me card"
+      />
+      <br />
+
     </div>
   );
 }
