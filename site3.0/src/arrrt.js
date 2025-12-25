@@ -1,5 +1,6 @@
 import React from 'react';
 import './arrrt.css';
+import NavigationBar from './NavigationBar';
 
 function Arrrt() {
   const artImages = [
@@ -27,6 +28,8 @@ function Arrrt() {
         visual art of mine can be found here!
         </p>
 
+        <NavigationBar />
+
         <div >
 
           <img
@@ -53,11 +56,6 @@ function Arrrt() {
             className="DigiArt"
           /> 
 
-
-          <img
-            src={`${process.env.PUBLIC_URL}/ArtTalk.png`}
-            className="VerticalTalk"
-          /> 
 
           <img
             src={`${process.env.PUBLIC_URL}/CatCafe.png`}

@@ -5,7 +5,7 @@
     
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     max-width: 800px;
 
@@ -55,3 +55,7 @@
   text-decoration: underline; /* Show underline on hover */
   color: #cccccc; /* Slightly darker white color on hover */
 }
+
+
+
+

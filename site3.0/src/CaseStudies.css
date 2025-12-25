@@ -1,0 +1,180 @@
+.CaseStudiesPage {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 80px 10%;
+    font-family: 'Inter', sans-serif;
+}
+
+.case-studies-header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.case-studies-header h1 { font-size: 3rem; margin-bottom: 10px; }
+.case-studies-header p { color: #888; font-size: 1.2rem; }
+
+/* The Storytelling Card */
+.case-study-card {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.case-study-card.reversed {
+    flex-direction: row-reverse;
+}
+
+.case-study-content {
+    flex: 1;
+}
+
+.case-study-visuals {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Tags & Badges */
+.meta-tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tag {
+    font-size: 0.7rem;
+    padding: 5px 12px;
+    border-radius: 50px;
+    background: rgba(255,255,255,0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tag.gold { background: #ffd700; color: black; font-weight: bold; }
+.tag.honors { border: 1px solid #00d4ff; color: #00d4ff; }
+
+/* Buttons */
+.project-links { display: flex; gap: 15px; margin-top: 25px; }
+
+.btn-primary, .btn-secondary {
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-primary { background: white; color: black; }
+.btn-secondary { border: 1px solid white; color: white; }
+
+.btn-primary:hover { background: #00d4ff; color: white; }
+
+/* Iframe containers */
+iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+    border: 1px solid #333;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .case-study-card, .case-study-card.reversed {
+        flex-direction: column;
+        text-align: center;
+    }
+    .meta-tags { justify-content: center; }
+}
+
+/* --- Navigation Panel Styles --- */
+.window-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 40px; /* Space between nav and content */
+}
+
+.window-background {
+  position: relative;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.background-with-icons {
+  position: relative; 
+  width: 60%; 
+  margin: 0 auto; 
+}
+
+.icon-bar {
+  position: absolute;
+  z-index: 10;
+  width: 70%; 
+  top: 80%; 
+  transform: translate(20%, -90%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.icon-bar img { 
+  position:relative; 
+  height: auto;
+  width: 15%; 
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  object-fit: contain;
+}
+
+.icon-bar img:hover {
+  transform: scale(1.1);
+}
+/* --- Navigation Panel Styles --- */
+.window-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px; /* Space between nav and content */
+  }
+  
+  .window-background {
+    position: relative;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .background-with-icons {
+    position: relative; 
+    width: 60%; 
+    margin: 0 auto; 
+  }
+  
+  .icon-bar {
+    position: absolute;
+    z-index: 10;
+    width: 70%; 
+    top: 80%; 
+    transform: translate(20%, -90%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+  }
+  
+  .icon-bar img { 
+    position:relative; 
+    height: auto;
+    width: 15%; 
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    object-fit: contain;
+  }
+  
+  .icon-bar img:hover {
+    transform: scale(1.1);
+  }

@@ -1,0 +1,45 @@
+/* NavigationBar.css */
+
+.window-container {
+    position: relative;
+    width: 100%;
+    margin: 20px auto; /* Added some margin for breathing room */
+  }
+  
+  .background-with-icons {
+    position: relative; 
+    width: 60%; 
+    margin: 0 auto; 
+  }
+  
+  .window-background {
+    width: 100%; /* Changed to 100% so it fills the 60% container perfectly */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .icon-bar {
+    position: absolute;
+    z-index: 10;
+    width: 80%; /* Adjusted to fit inside the panel image better */
+    top: 50%;   /* Centered vertically on the panel */
+    left: 0%;  /* Centered horizontally on the panel */
+    transform: translate(-50%, -50%); /* The "Perfect Center" trick */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+  }
+  
+  .clickable-icon { 
+    height: auto;
+    width: 15%; 
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    object-fit: contain;
+  }
+  
+  .clickable-icon:hover {
+    transform: scale(1.1);
+  }

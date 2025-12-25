@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './App.css';
 import './moosic.css';
-
+import NavigationBar from './NavigationBar';
 
 // --- Reusable Simple Audio Player Component ---
 const SimpleAudioPlayer = ({ title, fileName, info, pic, linkUrl }) => {
@@ -41,10 +41,15 @@ const SimpleAudioPlayer = ({ title, fileName, info, pic, linkUrl }) => {
 
 
 function Moosic() {
+
+
   return (
     <div className='moosic-body'>
       <div className="moosic-page">
         <h1>🎵 My Music Page 🎵</h1>
+
+        <NavigationBar />
+
         
 
         {/* === Player 1: Your Original File === */}
