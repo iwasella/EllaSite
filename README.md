@@ -1,8 +1,7 @@
 Hello! Welcome to the Repo for my Personal Website! My name is Ella :) 
 Here, you can follow the progress of how I've been building my personal website since the very beginning!
 
-# Current Version 3
-
+** Currently, my live is Version 3 **
 
 # Version 1
 I first created my personal website using HTML/CSS wayyy back then (around my 1st/2nd year of college).
@@ -21,8 +20,8 @@ I began drafting my ideas on Figma, sourcing some placeholder images from Pinter
 Redesign Purpose: Updated Bio, More Color, Including different art
 
 I'm blurring the plan. 
-Since I don't know the original artists form some of the images I got on Pinterest, 
-I'd be unable to properly credit them! 
+Since I don't know the original artists from some of the images I got on Pinterest, <br>
+I'd be unable to properly credit them! </br>
 <img width="543" height="640" alt="Ver2Plan" src="https://github.com/user-attachments/assets/b46011de-2031-4b55-8e78-1f9bf9c1fd48" />
 
 Different Tools
@@ -34,4 +33,24 @@ https://github.com/user-attachments/assets/758ba5d6-87e3-4530-83c8-9fe54e2752b5
 # Version 3
 I'd reached 3rd year in college. I started to dislike the red LOL, 
 and I decided I wanted a major concept change while keeping the dark/red/black retro vibes. 
+Adding onto the Art page. Unfortunately, I lost most of my previous wireframes I made on Canva (account changes).
+
+<img width="640" height="597" alt="Ver3ArtPlan" src="https://github.com/user-attachments/assets/b79450b7-53e4-4a9e-a5ee-3168412c94a2" />
+
+Redesign Purpose: Less Red
+
+Different Tools
+* Wireframing on Canva
+
+I used a lot of Gemini to help in regards to creating a navigation bar component. Most of the assets were created with the help of Canva. Again, you may see that my Canva projects might not all properly show due to account changes.
+
+
+https://github.com/user-attachments/assets/17aa2fd3-0293-4c83-ae5a-10822fa3ccee
+
+
+# Currently...  
+I'm working on redesigning my website.. AGAIN! However, Version 3 is the current running/live instnace.
+
+Purpose: Color Pallete Change, Different skills to showcase!
+
 
