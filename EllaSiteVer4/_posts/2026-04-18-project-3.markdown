@@ -1,11 +1,10 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: See You Soon!
+subtitle: Video Game Development
 layout: default
-modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+modal-id: 3
+img: golden.png
+thumbnail: SeeYouSoon-thumb.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

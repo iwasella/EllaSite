@@ -28,3 +28,11 @@ View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-th
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
+
+
+
+# 1. Install the gems
+bundle install
+
+# 2. Run the server
+bundle exec jekyll serve

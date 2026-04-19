@@ -172,12 +172,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #283a1a !important;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #76af5d !important;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -192,8 +192,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #76af5d !important;
+    border-color: #76af5d !important;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -219,7 +219,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #b4c765 !important;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -266,8 +266,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
-    color: #fff;
+    text-align: left;
+    color: #1f9662;
+    text-shadow: 2px 2px #00000046;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
@@ -288,6 +289,7 @@ header .intro-text .intro-lead-in {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
+    font-weight: 900;
     line-height: 22px;
 }
 
@@ -374,7 +376,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(116, 191, 104, 0.9); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
@@ -864,4 +866,51 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+/* --- ABOUT ME SECTION (FLEXBOX) --- */
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically center the text with the image */
+    justify-content: center;
+    gap: 40px; /* Space between the image and the text */
+    margin-top: 50px;
+}
+
+.about-me-image-wrapper {
+    border-radius: 10px!important; /* Increase/decrease this number to change the roundness */
+    flex: 0 0 30%; /* Take up 30% of the space, but don't shrink or grow */
+    max-width: 300px; /* Set a maximum size for the picture */
+}
+.about-me-image-wrapper img {
+    /* This overrides the 'img-circle' 50% radius */
+    border-radius: 25px !important; 
+    
+    /* Ensure the image stays a nice size */
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.about-me-text-wrapper {
+    flex: 1; /* Take up the rest of the available space */
+    text-align: left;
+}
+
+.about-me-text-wrapper p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767px) {
+    .about-me-container {
+        flex-direction: column; /* Stack vertically on small screens */
+        text-align: center;
+    }
+    .about-me-image-wrapper {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
 }

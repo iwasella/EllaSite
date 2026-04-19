@@ -1,3 +1,40 @@
 ---
 layout: style
 ---
+
+/* --- ABOUT ME SECTION (FLEXBOX) --- */
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically center the text with the image */
+    justify-content: center;
+    gap: 40px; /* Space between the image and the text */
+    margin-top: 50px;
+}
+
+.about-me-image-wrapper {
+    flex: 0 0 30%; /* Take up 30% of the space, but don't shrink or grow */
+    max-width: 300px; /* Set a maximum size for the picture */
+}
+
+.about-me-text-wrapper {
+    flex: 1; /* Take up the rest of the available space */
+    text-align: left;
+}
+
+.about-me-text-wrapper p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767px) {
+    .about-me-container {
+        flex-direction: column; /* Stack vertically on small screens */
+        text-align: center;
+    }
+    .about-me-image-wrapper {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
