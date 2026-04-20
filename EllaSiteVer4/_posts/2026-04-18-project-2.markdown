@@ -7,8 +7,8 @@ img: Gulf1.png
 img2: Gulf2.png
 thumbnail: Gulf-thumb.png
 alt: image-alt
-role:
-goal:
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+role: Lead UX Engineer
+goal: To bridge the gap between complex environmental data and actionable insights for Louisiana's fragile coastline.
+description: I designed the end-to-end user experience in Figma, creating a high-fidelity dashboard focused on clarity and data hierarchy. Simultaneously, I utilized Python to process coastal dataset logic, ensuring the species 'Risk Alerts' were accurately reflected in the UI. I focused heavily on Information Architecture for the initial prototype, making sure users would drill down from a national coastline view to specific local sites like Biloxi South without feeling overwhelmed by data. An interactive dashboard designed to visualize 50-year erosion projections, monitor, and identify 'High Priority' nesting habitats that require immediate conservation funding.
 
 ---
