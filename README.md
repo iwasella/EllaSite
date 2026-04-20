@@ -1,7 +1,7 @@
 Hello! Welcome to the Repo for my Personal Website! My name is Ella :) 
 Here, you can follow the progress of how I've been building my personal website since the very beginning!
 
-** Currently, my live is Version 3 **
+** Currently, my live is Version 4! **
 
 # Version 1
 I first created my personal website using HTML/CSS wayyy back then (around my 1st/2nd year of college).
@@ -48,9 +48,12 @@ I used a lot of Gemini to help in regards to creating a navigation bar component
 https://github.com/user-attachments/assets/17aa2fd3-0293-4c83-ae5a-10822fa3ccee
 
 
-# Currently...  
-I'm working on redesigning my website.. AGAIN! However, Version 3 is the current running/live instnace.
+# Version 4
+I wanted to go go back to a minimalist feel as the retro vibe was getting-- retro lol! I first made my wireframe on Canva (Figma was getting boring for me). This became only an ideas page, and I ended up scraping most of it.
 
-Purpose: Color Pallete Change, Different skills to showcase!
+I  decide to scale back, making my website using Jekyll. I used a free Jekyll theme called Agency. I went off script from my original wireframe, and chose for a simple one-page scroll design. 
+
+<img width="655" height="643" alt="Ver4Plan" src="https://github.com/user-attachments/assets/d239913b-515f-4984-8edf-30c51f79a768" />
+
 
 
