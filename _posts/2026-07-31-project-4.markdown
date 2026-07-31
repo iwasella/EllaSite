@@ -1,0 +1,13 @@
+---
+title: Leventar
+subtitle: Webdesign 
+layout: default
+modal-id: 4
+img: Leventar1.gif
+img2: Leventar2.gif
+thumbnail: Leventar-thumb.png
+role: Student Engineer
+goal: Increase SEO and create redesign strategy for a startup.
+description: Leventar is an organization dedicated to serving immigrant families in North Fair Oaks and Redwood City, adjusting them to life in the states through education, cultural enrichment, and community support. Through Develop for Good, I had the opportunity to focus on helping implement new user-centered designs, specifically, the org's about page. The two gifs show a before is one-page long scroll, whereas the other is the after as 3 different pages.
+---
+

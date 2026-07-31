@@ -7,8 +7,8 @@ img: Gulf1.png
 img2: Gulf2.png
 thumbnail: Gulf-thumb.png
 alt: image-alt
-role: Lead UX Engineer
-goal: To bridge the gap between complex environmental data and actionable insights for Louisiana's fragile coastline.
-description: I designed the end-to-end user experience in Figma, creating a high-fidelity dashboard focused on clarity and data hierarchy. Simultaneously, I utilized Python to process coastal dataset logic, ensuring the species 'Risk Alerts' were accurately reflected in the UI. I focused heavily on Information Architecture for the initial prototype, making sure users would drill down from a national coastline view to specific local sites like Biloxi South without feeling overwhelmed by data. An interactive dashboard designed to visualize 50-year erosion projections, monitor, and identify 'High Priority' nesting habitats that require immediate conservation funding.
+role: UX Engineer
+goal: Design a solution to safegaurd Louisiana's fragile biodiversity, using an archive of 400k+ aerial images in a Water Institute x Nexus Louisiana Competition.
+description: I designed a Figma Prototype and used Python. I made a case study which used historical avian data and Louisiana coastal erosion data to predict which habitats and specifes would be at high risk in the near future. 
 
 ---

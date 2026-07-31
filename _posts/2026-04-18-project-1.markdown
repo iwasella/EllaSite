@@ -1,15 +1,15 @@
 ---
 title: Freshness Scanner
-subtitle: Product & UX
+subtitle: Inclusive Design
 layout: default
 modal-id: 1
 img: Freshness1.png
 img2: Freshness2.png
 thumbnail: Freshness-thumb.png
 alt: image-alt
-role: Lead UX Designer & Researcher
-goal: To make grocery shopping accessible for colorblind and low-vision users by integrating an AI-powered freshness scanner into the Walmart App.
-description: Colorblind users often struggle to distinguish between "ripe" and "spoiled" produce, leading to food waste or accidental ingestion of expired items. Standard apps rely too heavily on color-coding without text-based alternatives. Working within the CodePath x AmazonNext competition, we conducted research on visual impairments. I was responsible for the Figma Prototyping, taking the existing Walmart Design System and seamlessly integrating a scanner that provides high-contrast, text-based, and audio feedback. We delivered a high-fidelity prototype that translates visual data into accessible feedback (e.g., "Banana is Overripe"). This solution follows Inclusive Design principles, benefiting not just colorblind users, but also elderly users or those with reading difficulties.
+role: UX Designer
+goal: Redesign existing platforms for inclusivity for Codepath x AmazonNext Competition. My team proposed integrating an AI-powered freshness scanner into the Walmart App to make grocery shopping accessible for colorblind and low-vision users.
+description: I was responsible for the Figma Prototyping, taking the existing Walmart Design System and seamlessly integrating a scanner that provides high-contrast, text-based, and audio feedback. We delivered a prototype that translates visual data into accessible feedback (e.g., "Banana is Overripe"). This solution follows Inclusive Design principles, benefiting not just colorblind users, but also elderly users or those with reading difficulties.
 
 
 ---

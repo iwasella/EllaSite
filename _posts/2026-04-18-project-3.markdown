@@ -1,14 +1,14 @@
 ---
 title: See You Soon!
-subtitle: Video Game Development
+subtitle: Game Dev
 layout: default
 modal-id: 3
 img: SeeYouSoon1.png
 img2: SeeYouSoon2.png
 thumbnail: SeeYouSoon-thumb.png
 alt: image-alt
-role: Solo Game Developer & Technical Artist
-goal: To create an immersive, emotionally-driven 2D platformer through original scoring and hand-crafted assets.
-description: Developed as a solo project for my Video Game Design class, 'See You Soon' follows the narrative of a child searching for a friend that has gone to the great beyond. I served as the sole creator, handling every pillar of production-- composing original atmospheric scores in MuseScore, designing custom pixel-art sprites and tilemaps, and implementing core gameplay mechanics in Unity. The project served as a deep dive into cohesive world-building and technical game architecture and also as a testament to blending my skills in art, music, and developing!
+role: Solo Game Dev
+goal: To create an immersive, emotionally-driven 2D platformer with original scoring and assets.
+description: See You Soon follows the narrative of a child searching for a friend that has gone to the great beyond. This project serves as a testament to blending my skills in art, music, and developing for the first time in school! I composed on MuseScore and created sprites on a free sprite designer browser.
 
 ---
